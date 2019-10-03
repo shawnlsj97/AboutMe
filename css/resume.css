@@ -177,7 +177,7 @@ a:hover, a:focus, a:active {
 
 .iframeVideo {
 	height: 0px;
-	padding-top: 25px;
+	padding-top: 0px;
 	padding-bottom: 56.25%;
 	position: relative;
 }
