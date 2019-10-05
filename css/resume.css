@@ -174,7 +174,3 @@ a {
 a:hover, a:focus, a:active {
   color: #074F7F;
 }
-
-#sticky-footer {
-  flex-shrink: none;
-}
