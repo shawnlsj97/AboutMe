@@ -389,7 +389,36 @@
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0"><img src="img/jpmorgan_logo.png" width="40"> <a href="https://ay1920s1-cs2103t-t12-3.github.io/main/index.html">JP Morgan 2020 Code for Good Hackathon</a></h3>
+            <h3 class="mb-0"><img src="img/c++_logo.png" width="32"> <a href="doc/SPA Requirements.pdf">Static Program Analyzer (SPA)</a></h3>
+            <div class="subheading mb-3">An interactive tool that automatically answers queries about programs!</div>
+            <p>[<a href="doc/Iteration 3 Report.pdf">Documentation</a>] &nbsp;[<a href="https://docs.google.com/presentation/d/1igqKypwJ7Hmv0dal3FY9BPv_e74_gOmUsykuu6QBJao/edit?usp=sharing">Presentation Slides</a>] &nbsp;[<a href="https://github.com/nus-cs3203/team03-cp-spa-20s1">GitHub</a>]</p>
+
+            <p>To answer program queries, the SPA must first analyze a source program and extract relevant program design entities, abstractions, Abstract Syntax Tree (AST), program Control Flow Graph (CFG) that are stored in a Program Knowledge Base (PKB). Secondly, the SPA must provide the user with means to ask questions about programs. These questions are written in a formal Program Query Language (PQL). SPA processes the PQL queries based on the information found in the PKB and returns the results to the user. The SPA was developed alongside 5 other computer science students from the National University of Singapore as part of a requirement for our software engineering module, <a href="https://nusmods.com/modules/CS3203/software-engineering-project">CS3203</a>.</p>
+
+            <p>Major Contributions:
+              <ol>
+                <li>Implemented the following subcomponents of the Query Processor:
+                  <ul>
+                    <li>QueryValidator - validates the semantic validity of the QueryParseResult (from parsing a query string) before the QueryBuilder uses the QueryParseResult to build a Query</li>
+                    <li>Query - internal representation of a user query that is easy to use for evaluation</li>
+                    <li>QueryBuilder - builds a Query using the QueryParseResult</li>
+                  </ul>
+                </li>
+                <li>Served as the team’s Test IC, performing extensive unit, integration and system testing</li>
+              </ol>
+            </p>
+
+            <p>Technologies used: C++</p>
+
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">August 2020 - November 2020</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0"><img src="img/jpmorgan_logo.png" width="40"> <a href="https://careers.jpmorgan.com/us/en/students/programs/code-for-good?search=&tags=location__AsiaPacific__Singapore">JP Morgan 2020 Code for Good Hackathon</a></h3>
             <div class="subheading mb-3">Team 12 - Twelve Muffins</div>
             <p>[<a href="https://ay1920s1-cs2103t-t12-3.github.io/main/team/shawnlsj97.html">Project Page</a>] &nbsp;[<a href="https://docs.google.com/presentation/d/13y7IjvkHzc69sl4hbljW_iT1piabYWShATD-e2LRkyU/edit?usp=sharing">Product Demo Slides</a>] &nbsp;[<a href="https://drive.google.com/file/d/1KU_spvi5325fXeE_ep66NjScvreuo86N/view">Product Demo Video</a>] &nbsp;[<a href="https://github.com/cfg2020apac/team-12">GitHub</a>]</p>
 
@@ -411,7 +440,7 @@
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0"><img src="img/creditsuisse_logo.png" width="48"> <a href="https://ay1920s1-cs2103t-t12-3.github.io/main/index.html">Credit Suisse 2020 CodeIT Online Coding Challenge</a></h3>
+            <h3 class="mb-0"><img src="img/creditsuisse_logo.png" width="48"> <a href="https://www.credit-suisse.com/careers/en/career-opportunities/recruitment-technology-microsite/technology-buzz/launch-2020-codeit-suisse.html">Credit Suisse 2020 CodeIT Online Coding Challenge</a></h3>
             <div class="subheading mb-3">Team PQL Babes</div>
             <p>[<a href="https://github.com/shawnlsj97/Credit-Suisse-CodeIT-Challenge-2020">GitHub</a>]</p>
 
@@ -629,6 +658,11 @@
             <i class="fa-li fa fa-trophy text-warning"></i>
             2<sup>nd</sup>
             Place - Raffles Institution - A Division Men's Water Polo 2015
+          </li>
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            3<sup>rd</sup>
+            Place - Raffles Institution - A Division Men's Water Polo 2014
           </li>
         </ul>
       </div>
