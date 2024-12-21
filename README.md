@@ -1,4 +1,4 @@
-# [About Me](https://shawnlsj97.github.io/aboutMe/)
+# [Personal Website](https://shawnlsj97.github.io/)
 Welcome to my personal website that documents my journey as a computer science student!
 
 ## Status
